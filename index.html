@@ -480,17 +480,18 @@
         <div class="footer-modal">
           <p class="footer-modal-text">Subscribe</p>
           <form class="email-input">
-            <label class="footer-label" for="emailbox"></label>
-            <input
-              class="footer-input"
-              type="email"
-              name="emailbox"
-              id="emailbox"
-              placeholder="E-mail"
-            />
+            <label class="footer-label" for="emailbox">
+              <input
+                class="footer-input"
+                type="email"
+                name="emailbox"
+                id="emailbox"
+                placeholder="E-mail"
+              />
+            </label>
             <button class="btn-subcribe" type="submit">
               Subscribe
-              <svg class="icon-telegram" width="24" height="20">
+              <svg class="icon-telegram" width="24" height="24">
                 <use href="./images/icons.svg#icon-telegram"></use>
               </svg>
             </button>
@@ -498,7 +499,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close" type="button">
           <svg class="btn-modal-icon" width="8" height="8">
@@ -530,7 +531,7 @@
                 name="user-phone"
                 id="user-phone"
               />
-              <svg class="modal-icon-input" width="18" height="18">
+              <svg class="modal-icon-input" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
             </div>
@@ -544,17 +545,17 @@
                 name="user-email"
                 id="user-email"
               />
-              <svg class="modal-icon-input" width="18" height="18">
+              <svg class="modal-icon-input" width="18" height="24">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
             </div>
           </div>
-          <div class="wrapper-input-comments">
-            <label class="modal-label" for="user-comments">Comment</label>
+          <div class="wrapper-input">
+            <label class="modal-label" for="user-comment">Comment</label>
             <textarea
               class="modal-textarea"
-              name="user-comments"
-              id="user-comments"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -562,14 +563,13 @@
             <input
               class="modal-checkbox visually-hidden"
               type="checkbox"
-              name="policy"
-              id="policy"
-              value="check"
-              checked
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
             />
-            <label class="checkbox-text" for="policy"
+            <label class="checkbox-text" for="user-privacy"
               ><span class="check-item"
-                ><svg class="check-icon" width="8" height="8">
+                ><svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector-v"></use>
                 </svg>
               </span>
