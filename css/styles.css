@@ -665,7 +665,7 @@ a {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-user-name {
+.modal-user-info {
   position: relative;
 }
 
@@ -684,14 +684,6 @@ a {
 
 .modal-input:focus + .modal-icon-input {
   fill: #4d5ae5;
-}
-
-.modal-user-tel {
-  position: relative;
-}
-
-.modal-user-email {
-  position: relative;
 }
 
 .text-modal {
@@ -802,9 +794,9 @@ a {
 }
 
 .check-item {
-  display: inline-flex;
   justify-content: center;
   align-items: center;
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -829,6 +821,10 @@ a {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.wrapper-input-textarea {
+  margin-bottom: 16px;
 }
 
 .modal-button {
